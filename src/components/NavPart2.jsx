@@ -46,9 +46,9 @@ const NavPart2 = () => {
         </Link>
 
         <Link
-          to="/contact"
+          to="/music"
           className={`block md:inline neuefont py-2 px-4 ${
-            isActive("/contact") ? "text-[#24cfa5]" : "text-white"
+            isActive("/music") ? "text-[#24cfa5]" : "text-white"
           }`}
           onClick={() => setIsOpen(false)}
         >

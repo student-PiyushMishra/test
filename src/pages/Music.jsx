@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
+const Music = () => {
   return (
     <div className="text-white p-6 w-full ">
       <iframe
@@ -40,4 +40,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Music;

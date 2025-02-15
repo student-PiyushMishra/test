@@ -52,7 +52,7 @@ const NavPart2 = () => {
           }`}
           onClick={() => setIsOpen(false)}
         >
-          Contact Us
+          Music
         </Link>
 
         <Link

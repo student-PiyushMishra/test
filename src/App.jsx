@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import Users from './pages/Users';  
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Music from './pages/Music';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/music" element={<Music />} />
         <Route path="/users" element={<Users />} />
       </Routes>
     </>
